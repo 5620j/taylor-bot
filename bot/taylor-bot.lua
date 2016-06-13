@@ -232,11 +232,11 @@ function create_config( )
 	"supergroup",
 	"whitelist",
 	"msg_checks"
-	""
-	""
-	""
-	""
-	""
+	"supergroupfa"
+	"support"
+	"instagram"
+	"time"
+	"times"
 	""
 	""
 	""
