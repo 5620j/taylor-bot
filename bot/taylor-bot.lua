@@ -242,10 +242,10 @@ function create_config( )
 	"share"
 	"webshot"
 	"wiki"
-	""
-	""
-	""
-	""
+	"lock_english"
+	"gps"
+	"sticker"
+	"linksp"
 	""
 	""
 	""
@@ -256,18 +256,7 @@ function create_config( )
     about_text = [[Taylor Team v4
     Taylor Team and Taylor Bot Anti spam / anti link
     
-    website : 
-    taylortg.ir  ❤️
-    
-    admin : 
-    
-    @negative_officiall ❤️
-    
-    
-    channel : 
-    
-    
-    @taylor_Team ❤️
+    channel :@MonsterTGbot
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -524,11 +513,18 @@ will return group ban list
 💢!webshot (آدرس سایت)
 اسکرین شات گرفتن از یک سایت
 
+💢!supportlink
+دریافت لینک گروه ساپورت ربات
+
 💢!qr
 دریافت هر چیزی به صورت بارکد
 
 💢!who
 لیست افراد گروه
+
+💢!gps (شهر) (کشور)
+دریافت مکان مورد نظر از گوگل
+
 
 💢!block
 بلاک از سوپر گروه
@@ -574,6 +570,9 @@ will return group ban list
 
 💢!link
 دریافت لینک
+
+💢!sticker متن
+تبدیل متن به استیکر
 
 💢!rules
 نمایش قوانین
