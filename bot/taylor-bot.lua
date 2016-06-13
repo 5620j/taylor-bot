@@ -246,10 +246,8 @@ function create_config( )
 	"gps"
 	"sticker"
 	"linksp"
-	""
-	""
-	""
-	""
+	"Slm"
+	"abjad"
     },
     sudo_users = {189308877},--Sudo users
     moderation = {data = 'data/moderation.json'},
