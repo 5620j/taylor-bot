@@ -464,146 +464,105 @@ will return group ban list
 
 ]],
 	help_text_super =[[
-SuperGroup Commands:
+راهنمای سوپر گروه دو زبان
 
 !info
-Displays general info about the SuperGroup
+اطلاعات
 
 !admins
-Returns SuperGroup admins list
+لیست ادمین
 
 !owner
-Returns group owner
+نمایش مدیر اصلی
 
 !modlist
-Returns Moderators list
+نمایش لیست مدیران فرعی
 
 !bots
-Lists bots in SuperGroup
+لیست بوت های گروه
 
 !who
-Lists all users in SuperGroup
+لیست افراد گروه
 
 !block
-Kicks a user from SuperGroup
-*Adds user to blocked list*
+بلاک از سوپر گروه
 
 !ban
-Bans user from the SuperGroup
+بن کردن
 
 !unban
-Unbans user from the SuperGroup
+ان بن کردن
 
 !id
-Return SuperGroup ID or user id
-*For userID's: !id @username or reply !id*
+ایدی 
 
 !id from
-Get ID of user message is forwarded from
+ایدی مسیج فروارد شده
 
 !kickme
-Kicks user from SuperGroup
-*Must be unblocked by owner or use join by pm to return*
+حذف خود
 
 !setowner
-Sets the SuperGroup owner
+تنظیم مدیر اصلی
 
 !promote [username|id]
-Promote a SuperGroup moderator
+تنظیم مدیر فرعی
 
 !demote [username|id]
-Demote a SuperGroup moderator
+پاک کردن مدیر فرعی
 
 !setname
-Sets the chat name
+تنظیم اسم گروه
 
 !setphoto
-Sets the chat photo
+تنظیم عکس گروه
 
 !setrules
-Sets the chat rules
+تنظیم قوانین گروه
 
 !setabout
-Sets the about section in chat info(members list)
-
-!save [value] <text>
-Sets extra info for chat
-
-!get [value]
-Retrieves extra info for chat by value
+تنظیم در باره ی گروه
 
 !newlink
-Generates a new group link
+لینک جدید
 
 !link
-Retireives the group link
+دریافت لینک
 
 !rules
-Retrieves the chat rules
+نمایش قوانین
 
 !lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Lock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: enable strict settings enforcement (violating user will be kicked)*
+قفل مواردی که در بالا ذکر شده
 
 !unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Unlock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: disable strict settings enforcement (violating user will not be kicked)*
+ان قفل مواردی که در بالا ذکر شده
 
 !mute [all|audio|gifs|photo|video|service]
-mute group message types
-*A "muted" message type is auto-deleted if posted
+قفل چت
 
 !unmute [all|audio|gifs|photo|video|service]
-Unmute group message types
-*A "unmuted" message type is not auto-deleted if posted
+باز کردن چت
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم حساسیت 
 
 !settings
-Returns chat settings
-
-!muteslist
-Returns mutes for chat
-
-!muteuser [username]
-Mute a user in chat
-*If a muted user posts a message, the message is deleted automaically
-*only owners can mute | mods and owners can unmute
+تنظیمات گروه
 
 !mutelist
-Returns list of muted users in chat
+لیست موت شدگان
 
 !banlist
-Returns SuperGroup ban list
+لیست بن شدگان
 
 !clean [rules|about|modlist|mutelist]
+پاک کردن مواردی که در بالا ذکر شده
 
 !del
-Deletes a message by reply
+حذف پیام با ریپلی
 
-!public [yes|no]
-Set chat visibility in pm !chats or !chatlist commands
-
-!res [username]
-Returns users name and id by username
-
-
-!log
-Returns group logs
-*Search for kick reasons using [#RTL|#spam|#lockmember]
-
-**You can use "#", "!", or "/" to begin all commands
-
-*Only owner can add members to SuperGroup
-(use invite link to invite)
-
-*Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
-
-*Only owner can use res, setowner, promote, demote, and log commands
-
+از کارکترهای #!/ پشتیبانی می کند
 ]],
   }
   serialize_to_file(config, './data/config.lua')
