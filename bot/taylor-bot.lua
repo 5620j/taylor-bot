@@ -234,6 +234,12 @@ function create_config( )
 	"msg_checks"
 	""
 	""
+	""
+	""
+	""
+	""
+	""
+	""
     },
     sudo_users = {189308877},--Sudo users
     moderation = {data = 'data/moderation.json'},
