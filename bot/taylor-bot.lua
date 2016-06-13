@@ -466,103 +466,106 @@ will return group ban list
 	help_text_super =[[
 راهنمای سوپر گروه دو زبان
 
-!info
+💢!info
 اطلاعات
 
-!admins
+💢!admins
 لیست ادمین
 
-!owner
+💢!owner
 نمایش مدیر اصلی
 
-!modlist
+💢!modlist
 نمایش لیست مدیران فرعی
 
-!bots
+💢!bots
 لیست بوت های گروه
 
-!who
+💢!who
 لیست افراد گروه
 
-!block
+💢!block
 بلاک از سوپر گروه
 
-!ban
+💢!ban
 بن کردن
 
-!unban
+💢!unban
 ان بن کردن
 
-!id
+💢!id
 ایدی 
 
-!id from
+💢!id from
 ایدی مسیج فروارد شده
 
-!kickme
+💢!kickme
 حذف خود
 
-!setowner
+💢!setowner
 تنظیم مدیر اصلی
 
-!promote [username|id]
+💢!promote [username|id]
 تنظیم مدیر فرعی
 
-!demote [username|id]
+💢!demote [username|id]
 پاک کردن مدیر فرعی
 
-!setname
+💢!setname
 تنظیم اسم گروه
 
-!setphoto
+💢!setphoto
 تنظیم عکس گروه
 
-!setrules
+💢!setrules
 تنظیم قوانین گروه
 
-!setabout
+💢!setabout
 تنظیم در باره ی گروه
 
-!newlink
+💢!newlink
 لینک جدید
 
-!link
+💢!link
 دریافت لینک
 
-!rules
+💢!rules
 نمایش قوانین
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+💢!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
 قفل مواردی که در بالا ذکر شده
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+💢!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
 ان قفل مواردی که در بالا ذکر شده
 
-!mute [all|audio|gifs|photo|video|service]
+💢!mute [all|audio|gifs|photo|video|service]
 قفل چت
 
-!unmute [all|audio|gifs|photo|video|service]
+💢!unmute [all|audio|gifs|photo|video|service]
 باز کردن چت
 
-!setflood [value]
+💢!setflood [value]
 تنظیم حساسیت 
 
-!settings
+💢!settings
 تنظیمات گروه
 
-!mutelist
+💢!mutelist
 لیست موت شدگان
 
-!banlist
+💢!banlist
 لیست بن شدگان
 
-!clean [rules|about|modlist|mutelist]
+💢!clean [rules|about|modlist|mutelist]
 پاک کردن مواردی که در بالا ذکر شده
 
-!del
+💢!del
 حذف پیام با ریپلی
 
 از کارکترهای #!/ پشتیبانی می کند
+
+Channel:@MonsterTGbot
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')
