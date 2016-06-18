@@ -464,8 +464,7 @@ will return group ban list
 
 ]],
 	help_text_super =[[
-SuperGroup Commands:
-
+SuperGroup 
 !info
 Displays general info about the SuperGroup
 
