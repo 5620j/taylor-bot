@@ -231,23 +231,22 @@ function create_config( )
     "leave_ban",
 	"supergroup",
 	"whitelist",
-	"msg_checks"
-	"supergroupfa"
-	"support"
-	"instagram"
-	"time"
-	"times"
-	"azan"
-	"qr"
-	"share"
-	"webshot"
-	"wiki"
-	"lock_english"
-	"gps"
-	"sticker"
-	"linksp"
-	"Slm"
-	"abjad"
+	"msg_checks",
+	"support",
+	"instagram",
+	"time",
+	"times",
+	"azan",
+	"qr",
+	"share",
+	"webshot",
+	"wiki",
+	"lock_english",
+	"gps",
+	"sticker",
+	"linksp",
+	"Slm",
+	"abjad",
     },
     sudo_users = {189308877},--Sudo users
     moderation = {data = 'data/moderation.json'},
